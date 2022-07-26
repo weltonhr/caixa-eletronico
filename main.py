@@ -1,13 +1,13 @@
 import getpass
 
-while True
-print("**********************************************")
-print("********* Banco - Caixa Eletrônico ***********")
-print("**********************************************")
-account_typed = input("Digite sua conta: ")
-password_typed = getpass.getpass("Digite sua senha: ")
-print(account_typed)
-print(password_typed)
+while True:
+ print("**********************************************")
+ print("********* Banco - Caixa Eletrônico ***********")
+ print("**********************************************")
+ account_typed = input("Digite sua conta: ")
+ password_typed = getpass.getpass("Digite sua senha: ")
+ print(account_typed)
+ print(password_typed)
 
 
 account_list = {
